@@ -1,0 +1,189 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "allBets",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "candidate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timesteamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "claimed",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "candidate",
+						"type": "uint256"
+					}
+				],
+				"name": "bet",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "claim",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dispute",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "candidate1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "candidate2",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "candidate3",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "image1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "image2",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "image3",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "total1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "total2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "total3",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "winner",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "winner",
+						"type": "uint256"
+					}
+				],
+				"name": "finish",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "netPrize",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BetCandidate.sol": "BetCandidate"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BetCandidate.sol": {
+			"keccak256": "0x841e22464a0f7c014fd1a70be2a82122affd087866766adad22ac50992becfdb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3b6d938c0f43cf99382c3275659ca8b02da85478ff01f040e232ece1e5bb9a93",
+				"dweb:/ipfs/QmTZbi7c4SDp5eW68GEurPVAerDXv3VtUo4hq1ccpQqxo4"
+			]
+		}
+	},
+	"version": 1
+}
